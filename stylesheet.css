@@ -1,0 +1,30 @@
+* { margin: 0; padding: 0;}
+html, body { height: 100%; }
+
+body {
+	background-color: black;
+	color: white;
+	font-family: monospace;
+	font-size: 40px;
+	padding: 32px;
+}
+
+body.flex {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 0;
+}
+
+p {
+	margin: 0 0 0.5em 0;
+}
+
+canvas {
+	background-color: white;
+}
+
+.error {
+	color: rgb(224, 0, 0);
+}
