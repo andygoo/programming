@@ -1,3 +1,5 @@
+![Example Graph](/res/example-graph.png?raw=true "An example graph")
+
 
 # KONSTANTER
 
