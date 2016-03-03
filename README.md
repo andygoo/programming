@@ -1,3 +1,5 @@
+![Example Text](/res/example-text.png?raw=true "Example text")
+
 ![Example Graph](/res/example-graph.png?raw=true "An example graph")
 
 
