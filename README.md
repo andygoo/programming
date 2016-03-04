@@ -83,6 +83,12 @@ Precis som `drawGraph`, fast med synliga punkter.
 
 ----
 
+## `drawGraphWithIntPoints(f, color)`
+
+Precis som `drawGraphWithPoints`, fast med punkter enbart då x är heltal.
+
+----
+
 ## `drawDerivative(f, color)`
 
 Ritar grafen för derivatan till funktionen `f` med färgen `color`. Om ingen färg
@@ -101,6 +107,12 @@ anges blir grafen röd.
 ## `drawDerivativeWithPoints(f, color)`
 
 Precis som `drawDerivative`, fast med synliga punkter.
+
+----
+
+## `drawDerivativeWithIntPoints(f, color)`
+
+Precis som `drawDerivativeWithPoints`, fast med punkter enbart då x är heltal.
 
 ----
 
@@ -125,6 +137,13 @@ Precis som `drawSecondDerivative`, fast med synliga punkter.
 
 ----
 
+## `drawSecondDerivativeWithIntPoints(f, color)`
+
+Precis som `drawSecondDerivativeWithPoints`, fast med punkter enbart då x är
+heltal.
+
+----
+
 ## `saveAsImage()`
 
 Skapar en bild av allt som ritats, som man sedan kan spara.
@@ -145,13 +164,24 @@ Precis som saveAsImage, fast med bakgrundsfärgen color.
 # HJÄLPFUNKTIONER
 
 
+## `isInt(n)`
+
+Returnerar `true` om `n` är ett heltal, annars `false`.
+
+#### Exempel:
+* `isInt(5)` returnerar `true`.
+* `isInt(1.5)` returnerar `false`.
+* `isInt("hej")` returnerar `false`.
+
+----
+
 ## `isString(str)`
 
 Returnerar `true` om `str` är en sträng, annars `false`.
 
 #### Exempel:
-* `isString("hej")` returnerar true.
-* `isString(15)` returnerar false.
+* `isString("hej")` returnerar `true`.
+* `isString(15)` returnerar `false`.
 
 ----
 
