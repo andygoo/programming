@@ -3,6 +3,9 @@
 ![Example Graph](/res/example-graph.png?raw=true "An example graph")
 
 
+
+--------
+
 # KONSTANTER
 
 
@@ -10,7 +13,7 @@
 
 Talet *π* (~3.14).
 
-----
+
 
 ## `e`
 
@@ -18,6 +21,7 @@ Talet *e* (~2.72).
 
 
 
+--------
 
 # KOMMANDON
 
@@ -31,7 +35,7 @@ Skriver ut `str`.
 * `print(5)` skriver ut `5`.
 * `print(20+8)` skriver ut `28`.
 
-----
+
 
 ## `printError(str)`
 
@@ -40,7 +44,7 @@ Skriver ut `str` i röd text.
 #### Exempel:
 * `print("Tusan!")` skriver ut `Tusan!` i röd text.
 
-----
+
 
 ## `drawPoint(x, y, color)`
 
@@ -50,7 +54,7 @@ röd.
 #### Exempel:
 * `drawPoint(5, 1, "black")` ritar en svart punkt vid (5, 1).
 
-----
+
 
 ## `drawLine(x1, y1, x2, y2, color)`
 
@@ -60,7 +64,7 @@ blir linjen röd.
 #### Exempel:
 * `drawLine(0, 0, 5, 1, "red")` ritar en röd linje från origo till (5, 1).
 
-----
+
 
 ## `drawGraph(f, color)`
 
@@ -75,19 +79,19 @@ röd.
 
 * `drawGraph(f, "red")` ritar *f*(*x*) = *x*² med röd färg.
 
-----
+
 
 ## `drawGraphWithPoints(f, color)`
 
 Precis som `drawGraph`, fast med synliga punkter.
 
-----
+
 
 ## `drawGraphWithIntPoints(f, color)`
 
 Precis som `drawGraphWithPoints`, fast med punkter enbart då x är heltal.
 
-----
+
 
 ## `drawDerivative(f, color)`
 
@@ -102,19 +106,19 @@ anges blir grafen röd.
 
 * `drawDerivative(f, "green")` ritar *f* ′(*x*) = 2*x* med grön färg.
 
-----
+
 
 ## `drawDerivativeWithPoints(f, color)`
 
 Precis som `drawDerivative`, fast med synliga punkter.
 
-----
+
 
 ## `drawDerivativeWithIntPoints(f, color)`
 
 Precis som `drawDerivativeWithPoints`, fast med punkter enbart då x är heltal.
 
-----
+
 
 ## `drawSecondDerivative(f, color)`
 
@@ -129,26 +133,26 @@ färg anges blir grafen röd.
 
 * `drawSecondDerivative(f, "blue")` ritar *f* ″(*x*) = 2 med blå färg.
 
-----
+
 
 ## `drawSecondDerivativeWithPoints(f, color)`
 
 Precis som `drawSecondDerivative`, fast med synliga punkter.
 
-----
+
 
 ## `drawSecondDerivativeWithIntPoints(f, color)`
 
 Precis som `drawSecondDerivativeWithPoints`, fast med punkter enbart då x är
 heltal.
 
-----
+
 
 ## `saveAsImage()`
 
 Skapar en bild av allt som ritats, som man sedan kan spara.
 
-----
+
 
 ## `saveAsImageWithBackground(color)`
 
@@ -159,7 +163,7 @@ Precis som saveAsImage, fast med bakgrundsfärgen color.
 
 
 
-
+--------
 
 # HJÄLPFUNKTIONER
 
@@ -173,7 +177,7 @@ Returnerar `true` om `n` är ett heltal, annars `false`.
 * `isInt(1.5)` returnerar `false`.
 * `isInt("hej")` returnerar `false`.
 
-----
+
 
 ## `isString(str)`
 
@@ -183,7 +187,7 @@ Returnerar `true` om `str` är en sträng, annars `false`.
 * `isString("hej")` returnerar `true`.
 * `isString(15)` returnerar `false`.
 
-----
+
 
 ## `round(n, d)`
 
@@ -193,7 +197,7 @@ Returnerar talet `n` avrundat till `d` decimaler.
 * `round(56.31516, 2)` returnerar `56.32`.
 * `round(75.00004, 1)` returnerar `75`.
 
-----
+
 
 ## `stringify(n)`
 
