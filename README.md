@@ -179,6 +179,16 @@ användaren väljer att inte svara.
 
 
 
+## `sqrt(x)`
+
+Returnerar kvadratroten ur `x`.
+
+#### Exempel:
+* `sqrt(25)` returnerar `5`.
+* `sqrt(2)` returnerar `1.4142135623730951`.
+
+
+
 ## `isInt(n)`
 
 Returnerar `true` om `n` är ett heltal, annars `false`.
