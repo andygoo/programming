@@ -168,6 +168,17 @@ Precis som saveAsImage, fast med bakgrundsfärgen color.
 # HJÄLPFUNKTIONER
 
 
+## `ask(str)`
+
+Ställer frågan `str` till användaren och returnerar svaret, eller `null` om
+användaren väljer att inte svara.
+
+#### Exempel:
+* name = `ask("Vad heter du?")`
+* age = `ask("Hur gammal är du?")`
+
+
+
 ## `isInt(n)`
 
 Returnerar `true` om `n` är ett heltal, annars `false`.
@@ -205,4 +216,3 @@ Omvandlar talet `n` till en sträng med riktiga minustecken.
 
 #### Exempel:
 * `stringify(-45.3)` returnerar `"−45.3"`.
-
